@@ -87,6 +87,7 @@ public class RevistaCrudController {
 		return ResponseEntity.ok(salida);
 	}
 	
+	///
 	@PutMapping("/actualizaRevista")
 	@ResponseBody
 	public ResponseEntity<Map<String, Object>> actualizaRevista(@RequestBody Revista obj) {
